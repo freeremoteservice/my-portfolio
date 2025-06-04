@@ -62,6 +62,6 @@ export const CONTACT_INFO: ContactInfo[] = [
     {
         src: "/assets/images/google.png",
         alt: "google",
-        link : "freeremoteservice@gmail.com"
+        link : "joshuatalltree62@gmail.com"
     }
 ];
