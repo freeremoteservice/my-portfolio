@@ -45,9 +45,9 @@ export const SKILLS: Skills = {
 
 export const CONTACT_INFO: ContactInfo[] = [
     {
-        src: "/assets/images/discord.png",
-        alt: "discord",
-        link : "https://discord.gg/fzRfanCQ"
+        src: "/assets/images/upwork.png",
+        alt: "Upwork",
+        link : "https://www.upwork.com/freelancers/~019554893600000000"
     },
     {
         src: "/assets/images/telegram.png",
@@ -55,9 +55,9 @@ export const CONTACT_INFO: ContactInfo[] = [
         link : "https://t.me/freeremoteservice"
     },
     {
-        src: "/assets/images/skype.png",
-        alt: "skype",
-        link : "https://join.skype.com/invite/pxvSBydAmJ1P",
+        src: "/assets/images/teams.png",
+        alt: "teams",
+        link : "https://teams.live.com/l/invite/FBAz2PHCNX-ctuGBgM",
     },
     {
         src: "/assets/images/google.png",
