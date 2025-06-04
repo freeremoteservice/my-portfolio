@@ -50,6 +50,11 @@ export const CONTACT_INFO: ContactInfo[] = [
         link : "https://www.upwork.com/freelancers/~019554893600000000"
     },
     {
+        src: "/assets/images/linkedin.png",
+        alt: "Linkedin",
+        link : "https://www.linkedin.com/in/joshuatalltree"
+    },
+    {
         src: "/assets/images/telegram.png",
         alt: "telegram",
         link : "https://t.me/freeremoteservice"
@@ -58,10 +63,5 @@ export const CONTACT_INFO: ContactInfo[] = [
         src: "/assets/images/teams.png",
         alt: "teams",
         link : "https://teams.live.com/l/invite/FBAz2PHCNX-ctuGBgM",
-    },
-    {
-        src: "/assets/images/google.png",
-        alt: "google",
-        link : "joshuatalltree62@gmail.com"
     }
 ];
