@@ -47,7 +47,7 @@ export const CONTACT_INFO: ContactInfo[] = [
     {
         src: "/assets/images/upwork.png",
         alt: "Upwork",
-        link : "https://www.upwork.com/freelancers/~019554893600000000"
+        link : "https://www.upwork.com/freelancers/joshuatalltree"
     },
     {
         src: "/assets/images/linkedin.png",
