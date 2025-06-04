@@ -4,7 +4,7 @@ import { Calendar, Clock, Github, MapPin } from "lucide-react";
 
 // Create the constant with the defined type
 export const PROFILE_DATA: ProfileData = {
-    name: "Yaroslav Gorlov",
+    name: "Joshua Talltree",
     headline: ["24/7", "REMOTE"],
     avatarSrc: "/assets/images/me-avatar.png",
     info: [

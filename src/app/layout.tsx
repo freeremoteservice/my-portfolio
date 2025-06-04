@@ -19,16 +19,16 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Yaroslav Portfolio",
+  title: "Joshua Portfolio",
   description:
-    "Yaroslav Gorlov Portfolio using Next.js. Full Stack Developer Ready !! ",
+    "Joshua Talltree Portfolio using Next.js. Full Stack Developer Ready !! ",
   icons: {
     icon: '/profile.png',
   },
-  creator: 'Yaroslav Gorlov',
-  keywords: 'Portfolio, Full Stack, Development, Freelance, Yaroslav, Amano, Frontend, Backend, Design, Crypto',
-  abstract: 'Yaroslav Gorlov Portfolio',
-  applicationName: 'Yaroslav',
+  creator: 'Joshua Talltree',
+  keywords: 'Portfolio, Full Stack, Development, Freelance, Joshua, Amano, Frontend, Backend, Design, Crypto',
+  abstract: 'Joshua Talltree Portfolio',
+  applicationName: 'Joshua',
   openGraph: {
     type: "website",
     images: [
@@ -44,9 +44,9 @@ export const metadata: Metadata = {
         alt: 'cover',
       },
     ],
-    title: "Yaroslav Gorlov",
+    title: "Joshua Talltree",
     description: "🌟 Full Stack Developer with 12 years of experience specializing in JavaScript-based development.",
-    url:"https://yaroslavgorlov.vercel.app"
+    url:"https://joshuatalltree.vercel.app"
   }
 };
 

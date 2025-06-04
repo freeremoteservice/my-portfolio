@@ -18,7 +18,7 @@ export const TOTAL_FOLLOWERS: TotalFollowers = {
 };
 
 export const PERSONAL_INFO: PersonalInfo = {
-    fullName: "Yaroslav Gorlov",
+    fullName: "Joshua Talltree",
     headline: [
         "Senior Software Engineer",
         "Frontend Developer",

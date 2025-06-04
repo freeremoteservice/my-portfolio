@@ -99,7 +99,7 @@ export default function DetailProfile() {
         <div className={`fixed min-h-screen flex flex-col items-center justify-center w-screen z-50 ${profileModal ? '' : 'hidden'}`}>
             <div className="relative font-mont z-10 flex flex-col items-center w-full max-w-[300px]">
                 <div ref={imageRef} className="mb-10">
-                    <Image src={PROFILE_DATA.avatarSrc} alt="Yaroslav" className="rounded-full" width={250} height={250} />
+                    <Image src={PROFILE_DATA.avatarSrc} alt="Joshua" className="rounded-full" width={250} height={250} />
                 </div>
                 <H5 ref={nameRef}>{PROFILE_DATA.name}</H5>
                 <div ref={headlineRef} className="font-mont text-gray flex gap-2 mb-5">

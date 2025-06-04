@@ -74,7 +74,7 @@ const Login: React.FC = () => {
           ref={cridentialRef}
           className="absolute z-50 opacity-0 flex flex-col items-center justify-center w-full max-w-[300px] transform -translate-y-[100px]"
         >
-          <Image src="/assets/images/me-avatar.png" alt="Yaroslav" className="rounded-full mb-10" width={200} height={200} />
+          <Image src="/assets/images/me-avatar.png" alt="Joshua" className="rounded-full mb-10" width={200} height={200} />
 
           <div className="flex flex-row w-full items-center">
             <input
