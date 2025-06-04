@@ -67,7 +67,7 @@ const Testimonial = () => {
             </H6>
             <Image ref={imageRef} src={CLIENT_REVIEW?.imageSrc} alt={CLIENT_REVIEW?.imageAlt} width={150} height={150} />
             <div className="flex flex-col items-center pt-5" ref={contentRef}>
-                <H5>{CLIENT_REVIEW?.completedProjects}</H5>
+                <H5>{CLIENT_REVIEW?.countOfReviews}</H5>
                 <span className="font-mont">{CLIENT_REVIEW?.description}</span>
             </div>
         </div>

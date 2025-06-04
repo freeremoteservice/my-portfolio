@@ -9,8 +9,7 @@ export interface ProjectComplete {
 
 export interface ClientReview {
     title: string;
-    value: number;
-    completedProjects: string;
+    countOfReviews: string;
     description: string;
     imageSrc: string;
     imageAlt: string;

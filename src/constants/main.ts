@@ -12,9 +12,8 @@ export const PROJECT_COMPLETE: ProjectComplete = {
 
 export const CLIENT_REVIEW: ClientReview = {
     title: "Client Reviews",
-    value: 100,
-    completedProjects: "100+",
-    description: "Completed 100+ Projects",
+    countOfReviews: "20+",
+    description: "Completed 30+ Projects",
     imageSrc: "/assets/images/testimonial.png",
     imageAlt: "testimonial"
 };
