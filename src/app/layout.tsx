@@ -45,7 +45,7 @@ export const metadata: Metadata = {
       },
     ],
     title: "Joshua Talltree",
-    description: "🌟 Full Stack Developer with 12 years of experience specializing in JavaScript-based development.",
+    description: "🌟 Full Stack Developer with 15 years of experience specializing in PHP and JavaScript-based development.",
     url:"https://joshuatalltree.vercel.app"
   }
 };
