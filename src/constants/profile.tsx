@@ -6,28 +6,28 @@ import { Calendar, Clock, Github, MapPin } from "lucide-react";
 export const PROFILE_DATA: ProfileData = {
     name: "Joshua Talltree",
     headline: ["24/7", "REMOTE"],
-    avatarSrc: "/assets/images/me-avatar.png",
+    avatarSrc: "/assets/images/me.png",
     info: [
         {
             label: "Location",
-            value: "Tomsk, Russian",
+            value: "Chicago, TX",
             icon: <MapPin />,
         },
         {
             label: "Birth Date",
-            value: "3rd, August, 1994",
+            value: "March 22, 1979",
             icon: <Calendar />,
         },
         {
             label: "Time Zone",
-            value: "EST time zone",
+            value: "CDT time zone",
             icon: <Clock />,
         },
         {
             label: "GitHub",
-            value: "freeremoteservice",
+            value: "talltreeDev",
             icon: <Github />,
-            link : 'https://github.com/freeremoteservice'
+            link : 'https://github.com/talltreeDev'
         },
     ],
 };
