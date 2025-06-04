@@ -1,0 +1,33 @@
+import { Skill } from "@/types/main";
+
+// Define a constant for skills
+export const SKILLS: Skill[] = [
+    { src: "/assets/images/skills/html5.png", years: 12, label: "Html5" },
+    { src: "/assets/images/skills/css3.png", years: 12, label: "CSS3" },
+    { src: "/assets/images/skills/javascript.png", years: 12, label: "JavaScript" },
+    { src: "/assets/images/skills/jquery.png", years: 12, label: "jQuery" },
+    { src: "/assets/images/skills/bootstrap.png", years: 12, label: "Bootstrap" },
+    { src: "/assets/images/skills/typescript.png", years: 10, label: "TypeScript" },
+    { src: "/assets/images/skills/angularjs.png", years: 12, label: "AngularJS" },
+    { src: "/assets/images/skills/angular.png", years: 10, label: "Angular" },
+    { src: "/assets/images/skills/reactjs.png", years: 10, label: "ReactJS" },
+    { src: "/assets/images/skills/vuejs.png", years: 10, label: "VueJS" },
+    { src: "/assets/images/skills/nextjs.png", years: 10, label: "NextJS" },
+    { src: "/assets/images/skills/php.png", years: 12, label: "PHP" },
+    { src: "/assets/images/skills/codeigniter.png", years: 12, label: "CodeIgniter" },
+    { src: "/assets/images/skills/laravel.png", years: 10, label: "Laravel" },
+    { src: "/assets/images/skills/nodejs.png", years: 10, label: "NodeJS" },
+    { src: "/assets/images/skills/c.png", years: 16, label: "C" },
+    { src: "/assets/images/skills/c++.png", years: 10, label: "C++" },
+    { src: "/assets/images/skills/csharp.png", years: 8, label: "C#" },
+    { src: "/assets/images/skills/aspnet.png", years: 8, label: "ASP.NET" },
+    { src: "/assets/images/skills/python.png", years: 5, label: "Python" },
+    { src: "/assets/images/skills/solidity.png", years: 5, label: "Solidity" },
+    { src: "/assets/images/skills/mysql.png", years: 12, label: "MySQL" },
+    { src: "/assets/images/skills/mongodb.png", years: 10, label: "mongoDB" },
+    { src: "/assets/images/skills/graphql.png", years: 5, label: "GraphQL" },
+    { src: "/assets/images/skills/figma.png", years: 10, label: "Figma" },
+    { src: "/assets/images/skills/aws.png", years: 5, label: "AWS" },
+    { src: "/assets/images/skills/git.png", years: 10, label: "Git" },
+    { src: "/assets/images/skills/github.png", years: 10, label: "Github" },
+];
