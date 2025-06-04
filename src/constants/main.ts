@@ -1,13 +1,22 @@
-import { ContactInfo, Experience, PersonalInfo, ProjectComplete, Skills, Testimonial, TotalFollowers } from "@/types/main";
+import { ContactInfo, Experience, PersonalInfo, ProjectComplete, ClientReview, Skills, TotalFollowers } from "@/types/main";
 
 
 // Define constants for data
 export const PROJECT_COMPLETE: ProjectComplete = {
-    title: "Project Complete",
+    title: "Job Success Score",
+    value: 100,
+    completedProjects: "Top Rated Plus",
+    description: "Certified by Upwork",
+    strokeColor: "#17C964"
+};
+
+export const CLIENT_REVIEW: ClientReview = {
+    title: "Client Reviews",
     value: 100,
     completedProjects: "100+",
     description: "Completed 100+ Projects",
-    strokeColor: "#17C964"
+    imageSrc: "/assets/images/testimonial.png",
+    imageAlt: "testimonial"
 };
 
 export const TOTAL_FOLLOWERS: TotalFollowers = {
@@ -20,26 +29,19 @@ export const TOTAL_FOLLOWERS: TotalFollowers = {
 export const PERSONAL_INFO: PersonalInfo = {
     fullName: "Joshua Talltree",
     headline: [
-        "Senior Software Engineer",
+        "Senior Fullstack Developer",
         "Frontend Developer",
         "Backend Developer",
-        "Full Stack Developer"
     ]
 };
 
 export const EXPERIENCE: Experience = {
-    years: 12,
+    years: 15,
     label: "y"
 };
 
 export const SKILLS: Skills = {
     count: 32
-};
-
-export const TESTIMONIAL: Testimonial = {
-    title: "Testimonial",
-    imageSrc: "/assets/images/testimonial.png",
-    imageAlt: "testimonial"
 };
 
 export const CONTACT_INFO: ContactInfo[] = [

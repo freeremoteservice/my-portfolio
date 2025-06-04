@@ -7,6 +7,15 @@ export interface ProjectComplete {
     strokeColor: string;
 }
 
+export interface ClientReview {
+    title: string;
+    value: number;
+    completedProjects: string;
+    description: string;
+    imageSrc: string;
+    imageAlt: string;
+}
+
 export interface TotalFollowers {
     title: string;
     followers: string;
@@ -26,12 +35,6 @@ export interface Experience {
 
 export interface Skills {
     count: number;
-}
-
-export interface Testimonial {
-    title: string;
-    imageSrc: string;
-    imageAlt: string;
 }
 
 export interface ContactInfo {

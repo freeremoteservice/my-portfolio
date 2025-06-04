@@ -47,8 +47,8 @@ export default function Main() {
               <Image 
                 src={'/assets/images/me.png'} 
                 alt="Joshua" 
-                width={360} 
-                height={520}
+                width={320} 
+                height={480}
                 className="absolute bottom-0 z-10 rounded-full"
               />
             </div>

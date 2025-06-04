@@ -1,6 +1,6 @@
 // components/Testimonial.tsx
-import { H4, H6 } from "@/components/basic/heading";
-import { PROJECT_COMPLETE, TESTIMONIAL } from "@/constants/main";
+import { H5, H6 } from "@/components/basic/heading";
+import { CLIENT_REVIEW } from "@/constants/main";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
@@ -63,12 +63,12 @@ const Testimonial = () => {
             onMouseLeave={handleMouseLeave} // Stop pulse animation
         >
             <H6 className="mb-5" ref={headingRef}>
-                {TESTIMONIAL?.title}
+                {CLIENT_REVIEW?.title}
             </H6>
-            <Image ref={imageRef} src={TESTIMONIAL?.imageSrc} alt={TESTIMONIAL?.imageAlt} width={150} height={150} />
+            <Image ref={imageRef} src={CLIENT_REVIEW?.imageSrc} alt={CLIENT_REVIEW?.imageAlt} width={150} height={150} />
             <div className="flex flex-col items-center pt-5" ref={contentRef}>
-                <H4>{PROJECT_COMPLETE?.completedProjects}</H4>
-                <span className="font-mont">{PROJECT_COMPLETE?.description}</span>
+                <H5>{CLIENT_REVIEW?.completedProjects}</H5>
+                <span className="font-mont">{CLIENT_REVIEW?.description}</span>
             </div>
         </div>
     );
